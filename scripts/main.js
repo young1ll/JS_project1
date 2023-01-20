@@ -63,6 +63,7 @@ const OffGame =()=> {
 // ThrowDiceFunc
 */
 const numP1 =()=> {
+    //배열로 받음
     const dices = ["1.png", "2.png", "3.png", "4.png", "5.png", "6.png"];
     const divDicebox = document.querySelector("#dice");
     const divOXbox = document.querySelector("#ox");
