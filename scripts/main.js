@@ -3,6 +3,7 @@
 */
 let resultForm="";
 let importDices="";
+
 const recordList = document.createElement("ul");
 recordList.className = "record_list"
 let rList = document.createElement("li");
@@ -68,6 +69,7 @@ const numP1 =()=> {
     
     const trDice = document.querySelector("#result"); // 제출
     let answerImg="";
+    document.querySelector("#content").append(recordList);
     // trDice 클릭시 실행
     trDice.addEventListener("click", ()=>{
         //let resultForm = numberForm.num.value; //Select HTML form name => resultForm
